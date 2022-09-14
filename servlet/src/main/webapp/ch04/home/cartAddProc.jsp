@@ -8,7 +8,7 @@
 		for(String product: products) cart += product + "/";
 		
 		Cookie cookie = new Cookie("cart", cart);
-		cookie.setMaxAge(7 * 24 * 60 * 60);
+		cookie.setMaxAge(7 * 24 * 60 * 60);		// 7일
 		response.addCookie(cookie);
 	}
 %>
