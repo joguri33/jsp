@@ -5,7 +5,7 @@
 <%
 	List<String> cart = new ArrayList<>();
 	
-	StringTokenizer st =null;
+	StringTokenizer st = null;
 	Cookie[] cookies = request.getCookies();
 	
 	for(Cookie cookie: cookies) {
