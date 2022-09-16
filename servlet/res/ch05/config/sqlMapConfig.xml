@@ -17,6 +17,9 @@
 	</environments>
 	
 	<mappers>
-		<mapper resource='ch05/dao/map.todayMap.xml'/>
+		<mapper resource='ch05/dao/map/todayMap.xml'/>
+		<mapper resource='ch05/dao/map/todayMap2.xml'/>
+		<mapper resource='ch05/dao/map/employeeMap.xml'/>
+		<mapper resource='ch05/dao/map/employeeMap2.xml'/>
 	</mappers>
 </configuration>
